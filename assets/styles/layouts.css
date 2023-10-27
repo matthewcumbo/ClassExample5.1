@@ -52,3 +52,46 @@ nav ul li a:hover{
     background-color: #dae1e8;
     color:#10314f;
 }
+/* END HEADER STYLES */
+
+
+
+
+/* FOOTER STYLES */
+footer{
+    width:100%;
+    background-color: #10314f;
+    display: flex;
+    padding:0 10%;
+    height:100%;
+
+    /* temporary */
+    margin-top:100px;
+}
+
+footer ul{
+    list-style: none;
+    margin-top:20px;
+}
+
+footer ul li{
+    margin-bottom:10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+footer div{
+    flex:1;
+}
+
+.mapDiv{
+    padding:0;
+}
+
+.mapDiv img{
+    display: block;
+    height:100%;
+}
