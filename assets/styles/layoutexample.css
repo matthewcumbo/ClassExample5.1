@@ -105,11 +105,8 @@ footer{
     height:auto;
     width:100%;
     background-color:#10314f;
-}
-
-.footerContainer{
     display: flex;
-    margin:0 15%;
+    padding:0 15%;
 }
 
 footer div{
