@@ -52,8 +52,54 @@ nav ul li a:hover{
     background-color: #dae1e8;
     color:#10314f;
 }
-/* END HEADER STYLES */
 
+/* MAIN STYLES */
+main section {
+    display: flex;
+    width:100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+main section div{
+    flex:1;
+}
+
+.catImg img{
+    width: 100%;
+}
+
+main section p, main section h2{
+    padding: 20px 50px 0px;
+}
+
+.mainDiv{
+    display: flex;
+}
+
+main{
+    flex:5;
+}
+
+aside{
+    flex: 1;
+    background-color: #dae1e8;
+    padding:20px 50px;
+}
+
+aside ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+aside ul li{
+    margin-bottom:10px;
+}
+
+aside a{
+    color:black;
+    text-decoration: none;
+}
 
 
 
@@ -64,9 +110,6 @@ footer{
     display: flex;
     padding:0 10%;
     height:100%;
-
-    /* temporary */
-    margin-top:100px;
 }
 
 footer ul{
