@@ -240,7 +240,9 @@ footer a{
 }
 
 .contactPage button[type=reset]:hover{
-    background-color: #ca1515;
+    background-color: white;
+    border:2px solid #ca1515;
+    color:#ca1515;
 }
 
 .contactPage button[type=submit]{
@@ -249,10 +251,7 @@ footer a{
 }
 
 .contactPage button[type=submit]:hover{
-    background-color: #0dc416;
-    
+    background-color: white;
+    border:2px solid #09ad11;
+    color:#09ad11;   
 }
-/* Pseudo classes: special class types that can be used for special cases */
-/* .contactPage fieldset:last-of-type{
-    border:none;
-} */
