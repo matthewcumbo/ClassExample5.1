@@ -30,7 +30,7 @@
             </ul>
         </nav>
     </header>
-    <form action="mailto:asdf@qwerty.com" method="POST" enctype="text/plain">
+    <form action="mailto:asdf@qwerty.com" method="POST" enctype="text/plain" class="contactPage">
         <div>
             <fieldset>
                 <legend>Personal Details</legend>
@@ -46,22 +46,22 @@
                 </div>
                 <div>
                     <div>
-                        <p>Age</p>
+                        <p class="ageTitle">Age</p>
                     </div>
                     <div>
                         <input type="radio" name="age" id="age1" value="ageGroup1">
                         <label for="age1">15 - 18</label>
                         <br>
-
+                        
                         
                         <input type="radio" name="age" id="age2" value="ageGroup2">
                         <label for="age2">19 - 25</label>
                         <br>
-
+                        
                         <input type="radio" name="age" id="age3" value="ageGroup3">
                         <label for="age3">26 - 40</label>
                         <br>
-
+                        
                         <input type="radio" name="age" id="age4" value="ageGroup4">
                         <label for="age4">40 +</label>
                     </div>
@@ -81,7 +81,7 @@
                 </div>
             </fieldset>
             
-            <fieldset>
+            <fieldset class="last">
                 <legend>Message Details</legend>
                 
                 <div>
@@ -103,9 +103,16 @@
                     <textarea name="message" id="messageInput" cols="30" rows="10" placeholder="Message"></textarea>
                 </div>
             </fieldset>
-
-            <button type="reset">Reset</button>
-            <button type="submit">Submit</button>
+            
+            <div class="buttonDiv">
+                <div>
+                    <button type="reset">Reset</button>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+            
         </div>
         
     </form>
