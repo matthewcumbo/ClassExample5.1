@@ -1,0 +1,11 @@
+.h200{
+    height:200px;
+}
+
+.h400{
+    height: 400px;
+}
+
+.h800{
+    max-height : 800px;
+}
