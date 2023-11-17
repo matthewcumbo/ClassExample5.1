@@ -7,6 +7,147 @@
     <link rel="stylesheet" href="assets/styles/layouts.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <div class="imageDiv">
+                    <img src="https://i.pinimg.com/originals/b3/c2/3c/b3c23c6cd9478c293fd4265e514cf922.png" alt="Company Logo home button">
+                </div>
+            </a>
+            <ul>
+                <li>
+                    <a href="page1.html">Page 1</a>
+                </li>
+                <li>
+                    <a href="page2.html">Page 2</a>
+                </li>
+                <li>
+                    <a href="page3.html">Page 3</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     
+    <form 
+    action="mailto:asdf@qwerty.com"
+    method="POST"
+    enctype="text/plain"
+    class="contactPage"
+    >
+    <fieldset>
+        <legend>Personal Details</legend>
+        
+        <div>
+            <label for="firstNameInput">First Name</label>
+            <input type="text" name="firstName" id="firstNameInput" placeholder="Joe">
+        </div>
+        
+        <div>
+            <label for="lastNameInput">Last Name</label>
+            <input type="text" name="lastName" id="lastNameInput" placeholder="Borg">
+        </div>
+        
+        <div>
+            <div>
+                <p class="ageTitle">Age Group</p>
+            </div> 
+            <div>
+                <input type="radio" name="age" id="age1" value="1">
+                <label for="age1">15 - 18</label>
+                <br>
+                
+                <input type="radio" name="age" id="age2" value="2">
+                <label for="age2">19 - 25</label>
+                <br>
+                
+                <input type="radio" name="age" id="age3" value="3">
+                <label for="age3">26 - 40</label>
+                <br>
+                
+                <input type="radio" name="age" id="age4" value="4">
+                <label for="age4">41+</label>
+            </div>
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Contact Information</legend>
+        <div>
+            <label for="emailInput">Email Address</label>
+            <input type="email" name="email" id="emailInput" placeholder="joeborg@gmail.com">
+        </div>
+        
+        <div>
+            <label for="phoneInput">Phone Number</label>
+            <input type="tel" name="phone" id="phoneInput" placeholder="1234 5678" pattern="[0-9]{4} [0-9]{4}">
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Message Details</legend>
+        
+        <div>
+            <label for="departmentInput">Department</label>
+            <select name="department" id="departmentInput">
+                <option value=""></option>
+                <option value="customer-support">
+                    Customer Support
+                </option>
+                <option value="technical-support">
+                    Technical Support
+                </option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="subjectInput">Subject</label>
+            <input type="text" name="subject" id="subjectInput" placeholder="Subject">
+        </div>
+        
+        <div>
+            <label for="messageInput">Message</label>
+            <textarea name="message" id="messageInput" cols="30" rows="10" placeholder="Message Content"></textarea>
+        </div>
+    </fieldset>
+    
+    <div class="buttonsDiv">
+        <div class="buttonDiv">
+            <button type="reset">Cancel</button>
+        </div>
+        <div class="buttonDiv">
+            <button type="submit">Send</button>    
+        </div>
+    </div>
+</form>
+
+
+<footer>
+    <div>
+        <ul>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <a href="#">Important Documents</a>
+            </li>
+            <li>
+                <a href="#">Legal Notice</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mapDiv">
+        <img src="https://cdn.ttgtmedia.com/rms/onlineimages/screenshot_1_google_maps_on_desktop_f_mobile.jpg" alt="Google Maps image">
+    </div>
+</footer>
 </body>
 </html>
