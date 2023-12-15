@@ -34,7 +34,8 @@
         <form 
         action="mailto:asdf@qwerty.com"
         method="POST"
-        enctype="text/plain">
+        enctype="text/plain"
+        onsubmit="return validateForm();">
             <div class="container">
                 <!-- Personal Details -->
                 <div class="row">
@@ -80,7 +81,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="col-2">
+                        <ul id="errorList"></ul>
+                    </div>
                 </div>
                 
                 <!-- Contact Information -->
@@ -141,7 +144,7 @@
                                     <button type="submit" class="btn btn-success w-100">Send</button>
                                 </div>
                                 <div class="col-6 mx-0 pe-0 ps-1">
-                                    <button type="reset" class="btn btn-danger w-100">Cancel</button>
+                                    <button onclick="resetErrors();" type="reset" class="btn btn-danger w-100">Cancel</button>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +188,9 @@
         </div>
     </footer>
     
+
     <script src="assets/scripts/bootstrap.js"></script>
+    <script src="assets/scripts/validation.js"></script>
 </body>
 </html>
 
