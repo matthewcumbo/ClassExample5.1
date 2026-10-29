@@ -16,7 +16,7 @@
             </a>
             <ul>
                 <li>
-                    <a href="page1.html">Page 1</a>
+                    <a href="page1.html">Home Page</a>
                 </li>
                 <li>
                     <a href="page2.html">Page 2</a>
@@ -35,7 +35,7 @@
     class="contactPage"
     >
     <fieldset>
-        <legend>Personal Details</legend>
+        <legend>Personal Detail</legend>
         
         <div>
             <label for="firstNameInput">First Name</label>
@@ -81,6 +81,11 @@
             <label for="phoneInput">Phone Number</label>
             <input type="tel" name="phone" id="phoneInput" placeholder="1234 5678" pattern="[0-9]{4} [0-9]{4}">
         </div>
+        
+        <div>
+            <label for="contactMe">Contact me</label>
+            <input type="checkbox" name="contactMe" id="contactMe">
+        </div>
     </fieldset>
     
     <fieldset>
@@ -89,7 +94,7 @@
         <div>
             <label for="departmentInput">Department</label>
             <select name="department" id="departmentInput">
-                <option value=""></option>
+                <option value="" disabled selected></option>
                 <option value="customer-support">
                     Customer Support
                 </option>
